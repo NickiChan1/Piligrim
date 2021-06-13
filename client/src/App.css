@@ -1,0 +1,335 @@
+.main__header {
+    background: url("./components/media/img/main_back.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.main__header_content {
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    top: 135px;
+    background: rgba(17, 17, 17, 0.6);
+    left: 0;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.main__header_logo {
+    width: 300px;
+    height: auto;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main__header_reg {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 25px;
+}
+
+.text__logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.btn_enter, .btn_rega {
+    color: white !important;
+    margin: 5px;
+    font-weight: 500 !important;
+    border: solid 1px #007bff !important;
+}
+
+.btn_enter:hover, .btn_rega:hover {
+    color: white !important;
+    box-shadow: #007bff 0 0 3px 3px;
+    transition: 0.3s;
+}
+
+.btn_group {
+    margin: 2.5px;
+}
+
+.btn_group:hover {
+    box-shadow: #007bff 0 0 3px 3px;
+    transition: 0.3s;
+}
+
+.container__navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 105px;
+}
+
+.container__navigation_card {
+    width: 259px;
+    height: 259px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.main__footer {
+    color: white;
+    position: relative;
+    height: 100px;
+    margin-top: 80px;
+    background: rgba(17, 17, 17, 0.6);
+}
+
+.main__footer_content {
+
+}
+
+/*Новости*/
+.page__info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    width: 25rem;
+}
+
+.page__pointer {
+    font-size: 2rem;
+}
+
+.content_container {
+    margin-top: 100px;
+    max-width: 1500px;
+}
+
+.news__heaeder {
+    display: flex;
+    justify-content: center;
+}
+
+.news__container {
+    display: flex;
+    justify-content: center;
+}
+
+.news__footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Мото WiKi*/
+
+.motowiki__card {
+    min-width: 400px !important;
+}
+
+.moto__wiki_select {
+    width: 400px  !important;
+    max-width: 400px !important;
+    text-align: center;
+}
+
+.motowiki__card_header {
+    display: flex;
+    justify-content: center;
+}
+
+.static__content {
+    display: flex;
+    margin-top: 60px;
+}
+
+.position-static {
+    display: flex;
+    justify-content: right;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.moto__img {
+    width: 640px !important;
+    height: 420px !important;
+}
+
+/*Медиа*/
+.container__media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.media__footer, .reg__footer {
+    color: white;
+    height: 100px;
+    margin-top: 80px;
+    background: rgba(17, 17, 17, 0.6);
+}
+
+a {
+    cursor: pointer;
+}
+
+.club__rules {
+    margin-top: 60px;
+}
+
+.chavo__rules {
+    margin-top: 60px;
+}
+
+/*Регистрация*/
+.reg__container {
+
+}
+
+.reg__form {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.reg__form_input {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.reg__form_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reg__btn_content {
+    display: flex;
+    justify-content: right;
+}
+
+.btn__login, .btn__reg {
+    color: black !important;
+    border: 1px #007bff solid !important;
+}
+
+.btn__login:hover, .btn__reg:hover {
+    color: black !important;
+    box-shadow: #007bff 0 0 3px 3px !important;
+    transition: 0.3s;
+}
+
+.badge-pill {
+    margin-left: 5px;
+}
+
+.audio_row__inner {
+    display: flex;
+    width: 30rem;
+}
+
+.audio_row__performers, .audio_row__title {
+    margin-left: 15px;
+}
+
+.audio_row__duration {
+    margin-left: auto;
+}
+
+.audio_row__info {
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.audio_row__cover_back {
+    display: contents;
+}
+
+.music_card {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.cover_img {
+    visibility: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.music_card:hover .cover_img {
+    visibility: visible;
+}
+
+
+.play_btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 100% !important;
+}
+
+.videos__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video, .card {
+    margin: 20px;
+}
+
+.custom_redirect_block {
+    width: 20rem;
+}
+
+.manual_select {
+    width: 20rem;
+}
+
+/*Аминка*/
+.main__control {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_btn, .update_btn, .delete_btn {
+    margin: 2.5px;
+}
+
+.add_btn:hover {
+    box-shadow: limegreen 0 0 2px 2px;
+    transition: 0.3s;
+}
+
+.update_btn:hover {
+    box-shadow: #1e90ff 0 0 2px 2px;
+    transition: 0.3s;
+}
+
+.delete_btn:hover {
+    box-shadow: crimson 0 0 2px 2px;
+    transition: 0.3s;
+}
+
+.control_action {
+    width: 20rem;
+}
+
+.action_card {
+    display: flex;
+}
+
+.add_news_form_container {
+    display: flex;
+    justify-content: center;
+}
+
+.add_news_form {
+    margin-top: 5rem;
+    width: 50rem;
+}
