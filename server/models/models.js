@@ -29,7 +29,7 @@ const sequelize = require('../database');
 
     const ClubHistorys = sequelize.define('club_history', {
         id: {type: DataTypes.INTEGER, autoIncrement:true, primaryKey:true},
-        history_text: {type: DataTypes.STRING(2048), allowNull:false}
+        history_text: {type: DataTypes.STRING(10000), allowNull:false}
     });
 
     const ClubComposition = sequelize.define('club_composition', {
@@ -39,7 +39,7 @@ const sequelize = require('../database');
 
     const Faq = sequelize.define('faq', {
         id: {type: DataTypes.INTEGER, autoIncrement:true, primaryKey:true},
-        faq_text: {type: DataTypes.STRING(1024), allowNull:false},
+        faq_text: {type: DataTypes.STRING(10000), allowNull:false},
     });
 
     const News = sequelize.define('news', {

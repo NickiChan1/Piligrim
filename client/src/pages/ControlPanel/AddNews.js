@@ -13,11 +13,14 @@ import {add_news} from "../../http/userApi";
                 console.log(news_image);
                 const require = await add_news(news_name, news_content, news_image,news_data)
                     .then( req => {
+                        console.log('Новость успешно добавлена!');
                     }).catch(error => {
-                      console.log(error);
+                      console.log('Произошла ошибка!');
                     }
                 )
+                console.log(require);
             }
+
 
      const  handleImageChange = (e) => {
             e.preventDefault();

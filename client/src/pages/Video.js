@@ -10,7 +10,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -23,7 +23,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -36,7 +36,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -50,7 +50,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -63,7 +63,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -76,7 +76,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -91,7 +91,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -104,7 +104,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>
@@ -117,7 +117,7 @@ export default function Video(){
                         </div>
                         <div className="card-body">
                             <div className="embed-responsive embed-responsive-16by9 video" style={{width: "50rem"}}>
-                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-166645313&id=456239065&hash=d43da38cbdb99d6c" width="1920" height="1080"
+                                <iframe title="video" src="https://vk.com/video_ext.php?oid=-60149018&id=456239021&hash=7979e0314a3d1676" width="1920" height="1080"
                                         frameBorder="0" allowFullScreen>
                                 </iframe>
                             </div>

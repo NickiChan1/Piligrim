@@ -20,7 +20,7 @@ export default function Rule(){
             <div className="container-fluid">
                 <div className="card chavo__rules">
                     <div className="card-body">
-                        <p className="card-text">{ruleData.faq_text}</p>
+                        <p className="card-text" style={{fontSize:'1.2rem'}}>{ruleData.faq_text}</p>
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@ export default function Club(){
         <div class="card-body">
             {
                 userList.map(x =>
-                    <p className="card-text">{x.history_text}</p>
+                    <p className="card-text" style={{fontSize:'1.5rem'}}>{x.history_text}</p>
                 )
             }
 

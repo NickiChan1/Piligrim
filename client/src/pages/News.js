@@ -19,13 +19,13 @@ export default function News(){
 <div className="container-fluid content_container">
     {content.map((data, index) =>
         <div className="news__container">
-            {console.log(data)}
                 <div className="card " style={{width:"42rem"}} key={index}>
                     <div className="card-header news__heaeder"><span className="news__name">{data.news_name}</span></div>
-                    <img style={{width: '640px', height:'480px'}} src={REACT_APP_API_URL + 'static/img/' + data.news_image} className="card-img-top" alt="news_image"/>
+                    <img style={{width: '42rem', height:'35rem'}} src={REACT_APP_API_URL + 'static/img/' + data.news_image} className="card-img-top" alt="news_image"/>
                     <div className="card-body">
                         <p className="card-text">
                             {data.news_content}
+
                         </p>
                     </div>
                     <div className="card-footer news__footer">
