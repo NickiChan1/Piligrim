@@ -22,3 +22,4 @@ export const KAWASAKI_ROUTE = '/kawasaki';
 export const ADMIN_AUTH = '/control';
 export const MAIN_CONTROL = '/main_control';
 export const ADD_NEWS_ROUTE = '/admin_add_news';
+export const ADD_CLUB_ROUTE = '/admin_add_club';

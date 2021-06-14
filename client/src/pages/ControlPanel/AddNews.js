@@ -9,16 +9,13 @@ import {add_news} from "../../http/userApi";
 
             const AddNews = async () => {
                 let news_data = new Date().toLocaleString();
-                console.log(news_data);
-                console.log(news_image);
                 const require = await add_news(news_name, news_content, news_image,news_data)
                     .then( req => {
-                        console.log('Новость успешно добавлена!');
+                        console.log(req.status);
                     }).catch(error => {
-                      console.log('Произошла ошибка!');
+                      console.log(error);
                     }
                 )
-                console.log(require);
             }
 
 

@@ -1,4 +1,5 @@
 import {
+    ADD_CLUB_ROUTE,
     ADD_NEWS_ROUTE,
     MAIN_CONTROL,
     ADMIN_AUTH,
@@ -29,6 +30,7 @@ import News from './pages/News';
 import Rule from './pages/Rule';
 import Video from './pages/Video';
 //Админ импорты
+import AddClubH from "./pages/ControlPanel/AddClubH";
 import AuthAdmin from "./pages/ControlPanel/AuthAdmin";
 import MainControl from "./pages/ControlPanel/MainControl";
 import AddNews from "./pages/ControlPanel/AddNews";
@@ -121,6 +123,11 @@ import Honda from './pages/manual/Honda';
         {
             path: ADD_NEWS_ROUTE,
             Component: AddNews
+        },
+
+        {
+            path: ADD_CLUB_ROUTE,
+            Component: AddClubH
         }
     ]
 

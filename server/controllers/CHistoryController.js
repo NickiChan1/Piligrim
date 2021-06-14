@@ -3,9 +3,11 @@ const {ClubHistorys} = require('../models/models');
 class ClubHistory {
     async newHistory(req,res){
         const {history_text} = req.body;
+        console.log(req.body);
         const createHistory = await ClubHistorys.create({
             history_text
         });
+
         res.json(createHistory);
     }
 
